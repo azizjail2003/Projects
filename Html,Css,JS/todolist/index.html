@@ -1,0 +1,48 @@
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<h1 id="myHeader">TO DO List</h1>
+
+<!-- STEPs 1 and 2 below here  -->
+
+<input type="button" id="addButton" value="add " onclick=addTask()>
+<input type="text" id="input" placeholder="enter task...">
+<input type="text" id="input1" placeholder="enter point..." onchange=addP()>
+<p id="player1"> 0</p>
+<p id="player2">0</p>
+<hr>
+
+<ul id="tasks">
+  <li>
+    <input type="button" class="done" onclick="markDone(this.parentNode)" value="&#x2713;" />
+    <input type="button" class="remove" onclick="remove(this.parentNode)" value="&#x2715;" />
+    <input type="button" class="importantB" value="!" onclick=important(this.parentNode)>
+    make todo list
+  </li>
+
+</ul>
+<hr>
+<!-- STEPs 8 and 9 below here  -->
+<div id="divabout">
+</div>
+<input type="button" value="About" onclick=doAbout()>
+
+<!-- STEP 13 below here  -->
+<input type="button" value="Clear" onclick=clearAbout()>
+
+
+<p>Use the arrow keys to control the square object.</p>
+<svg width="500px" height="500px" class="area">
+  <rect id="object1" x="10" y="10" width="20" height="20" fill="black" />
+</svg>
+<script>refreshPosition();
+  let object1Size = {
+    width: 20,
+    height: 20
+  };
+  let position = {
+    x: 10,
+    y: 10
+  };
+  let moveRate = 10;
+  let object1 = document.getElementById("object1");
+</script>

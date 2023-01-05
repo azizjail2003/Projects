@@ -1,0 +1,102 @@
+
+img{
+    width: 50%;
+    border-radius:10%;
+   
+}
+  ul{
+      display: flex;
+   
+  }
+  li{
+    margin: auto;
+    padding: 9%;
+  }
+  li:hover{
+      background-color: brown;
+      float: right;
+  }
+  .facebook{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/2048px-Facebook_icon.svg.png');
+ background-size: contain; 
+}
+.linkedin{
+    background-image: url('https://cdn-icons-png.flaticon.com/512/174/174857.png');
+    background-size: contain;
+}
+.instagram{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png');
+background-size: contain ;
+}
+table{
+    border-style: solid;
+    border-color:white ;
+    width:100%
+    
+}
+td{
+    text-align: center;
+    background-color: brown;
+    
+}
+th{
+    background-color: blueviolet;
+}
+#title{
+    text-align: center;
+}
+td:hover{
+    background-color: white;
+
+}
+.introduction{
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-size: medium;
+color: whitesmoke;
+}
+#intro{
+color: whitesmoke;
+background-color: lightcoral;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: xx-large;
+border-style: outset;
+padding: 10px;
+margin: 0px;
+
+}
+#body{
+    color: lightcyan;
+    background-color: lightskyblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:x-large;
+    border-style: dotted;
+    padding: 20px;
+    margin: 10px;
+
+}
+input{
+    color: aqua;
+    font-size: large;
+    background-color:black ;
+    text-align: center;
+    margin-left: 700px;
+    height: 50px;
+    width: 100px;
+}
+.result{
+    background-color: black;
+    color: whitesmoke;
+}
+/*    Color
+
+    Background color
+
+    Font family
+
+    Font size
+
+    Border
+
+    Padding
+
+    Margin*/

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+    <title>Mini project</title>
+</head>
+<body>
+    <h1>Filter App</h1>
+    <canvas id="can"></canvas>
+    <br>
+    <input type="file" accept="image/*" multiple="false" id="img" onchange="loadImage()"/>
+    <br>
+    <div class="buttons">
+    <input type="button" id="btn1" value="Grayscale" onclick="makeGray()">
+    <input type="button" id="btn2" value="red" onclick="makeRed()">
+    <input type="button" id="btn3" value="blue" onclick="makeBlue()">
+    <input type="button" id="btn4" value="Red hue" onclick="redFilter()">
+    <input type="button" id="btn5" value="blur" onclick="randomFilter()">
+    <input type="button" id="btn6" value="rainbow (no homo)" onclick="rainbowFilter()">
+
+
+
+    <br>
+    <input type="button" id="reset" value="reset image" onclick="resetImage()">
+    <input type="button" id="clear" value="clear canvas" onclick="clearCanvas()">
+</div>
+</body>
+</html>

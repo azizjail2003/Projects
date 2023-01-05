@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Interests</title>
+</head>
+  <nav>
+    <ul style="list-style-type:none;"> 
+        <li class="facebook"><a href ="https://www.facebook.com/azizjail.15" target="_blank">  </a></li>
+      <li class="linkedin"> <a href="https://www.linkedin.com/in/abdelaziz-jail-5414b1162/" target="_blank"></a> </li>      
+      <li class="instagram"> <a href="https://www.instagram.com/3aziz.exe/" target="_blank"></a>
+        </li>
+    </ul>
+  </nav>
+<body>
+    
+    <div class="introduction">
+    <h1 id="title">ABDELAZIZ JAIL</h1>
+    <p>Hi my name is Abdelaziz Jail im a student i live in morocco i love coding
+        and creating programms my first project was using <b>'C programming'</b> and it was meant to 
+        manage a <em>school system</em>. My second project was using <em> <b>html <b>css php</b> and some javascript </em>
+        i tried to create a website to manage a hotel system.
+        
+    </p>
+   </div>
+<table border="1">
+    
+<tr>
+    <th>language</th>
+    <th>Level</th>
+</tr>
+
+</table>
+<button onclick="alert()"></button>
+</body>
+</html>
+<script >
+const alert =() =>{
+    window.alert('hello');
+}
+    var languages ={
+        html: 70,
+        javascript:30,
+        css:25,
+        php:60,
+        c:5
+ } ;
+ var table = document.querySelector('table');
+
+ 
+ for(language in languages){
+    // Create an empty <tr> element and add it to the 1st position of the table:
+var row = table.insertRow();
+    var cell1 = row.insertCell().innerHTML =language;
+var cell2 = row.insertCell().innerHTML =languages[language] ;
+ };
+ var x = "hello"
+ 
+ 
+
+
+</script>
